@@ -36,7 +36,13 @@ header {
     z-index: 10;
 }
 
-header ul { display: flex; list-style: none; width: 100%; gap: 15px; align-items: center; }
+header ul { 
+    display: flex; 
+    list-style: none; 
+    width: 100%; 
+    gap: 15px; 
+    align-items: center; 
+}
 
 header li {
     background-color: #c0c0c0;
@@ -67,3 +73,19 @@ header li a { color: #000; text-decoration: none; }
     padding: 2px 5px;
     font-weight: bold;
 }
+
+/* Footer decoration */
+footer {
+    flex: 0 0 40px;
+    background-color: #1a1a1a;
+    border-top: 2px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    z-index: 10;
+}
+
+/* Footer font  */
+footer p {font-size: 0.8rem; color: #404040; font-weight: bold; }
