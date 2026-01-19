@@ -74,6 +74,20 @@ header li a { color: #000; text-decoration: none; }
     font-weight: bold;
 }
 
+/* keep for testing */
+/* * CONTENT WRAPPER (Layer 5 - Above Scanlines)  */
+
+/* Fix positions */
+.content-wrapper {
+    flex: 1; /* Pushes footer down */
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
 /* Footer decoration */
 footer {
     flex: 0 0 40px;
