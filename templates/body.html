@@ -15,8 +15,14 @@
         <li><a href="data.html">FILE</a></li>
         <li><a href="index.html">SOFTWARE</a></li>
 
-<!-- Drop down for the connection protocol (TBD) -->
-        <select name="connection" id="CONNECTION"></select>
+<!-- Drop down for the connection protocol -->
+                <div class="connection-dropdown">
+            <label for="CONNECTION">PROTOCOL:</label>
+            <select id="CONNECTION">
+                <option value="CABLE">CABLE (DEFAULT)</option>
+                <option value="EAR">EAR INTERFACE</option>
+                <option value="SETTINGS">SETTINGS</option>
+            </select>
         <li class="EXIT-btn"></li>
     </ul>
 </header>
