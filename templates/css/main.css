@@ -103,3 +103,16 @@ footer {
 
 /* Footer font  */
 footer p {font-size: 0.8rem; color: #404040; font-weight: bold; }
+
+/* added chime btn and interaction look */
+.chime-btn {
+    background-color: #c0c0c0;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    padding: 2px 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.chime-btn:active {border-color: #808080 #ffffff #ffffff #808080; }
