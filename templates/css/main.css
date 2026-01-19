@@ -1,6 +1,8 @@
 /* Layout reset */
 * { box-sizing: border-box; padding: 0; margin: 0; }
 
+
+/* Scanlines filter for background */
 html, body {
     height: 100vh;
     display: flex;
@@ -19,3 +21,31 @@ body::after {
     z-index: 1; 
     pointer-events: none;
 }
+
+
+/* HEADER changed depth to Layer 10 */
+header {
+    flex: 0 0 60px; /* Static height */
+    background-color: #c0c0c0df;
+    border-bottom: 2px solid #808080;
+    border-top: 2px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    z-index: 10;
+}
+
+header ul { display: flex; list-style: none; width: 100%; gap: 15px; align-items: center; }
+
+header li {
+    background-color: #c0c0c0;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+header li a { color: #000; text-decoration: none; }
