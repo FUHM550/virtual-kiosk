@@ -104,7 +104,7 @@ footer {
 /* Footer font  */
 footer p {font-size: 0.8rem; color: #404040; font-weight: bold; }
 
-/* added chime btn and interaction look */
+/* Chime button interaction and look */
 .chime-btn {
     background-color: #c0c0c0;
     border: 2px solid;
@@ -116,3 +116,7 @@ footer p {font-size: 0.8rem; color: #404040; font-weight: bold; }
 }
 
 .chime-btn:active {border-color: #808080 #ffffff #ffffff #808080; }
+
+/* Exit button interaction and look */
+.EXIT-btn { background: #aa0000 !important; border-color: #ff4b2b #550000 #550000 #ff4b2b !important; }
+.EXIT-btn a { color: white !important; }
